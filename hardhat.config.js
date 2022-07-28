@@ -41,6 +41,11 @@ module.exports = {
     },
   },
 
+  etherscan: {
+    apiKey: {
+      rinkeby: ETHERSCAN_API_KEY
+    }
+  },
   solidity: "0.8.7",
 
   gasReporter: {
